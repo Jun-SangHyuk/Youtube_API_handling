@@ -1,4 +1,4 @@
-api_key = "AIzaSyC7bCZzhayKamAxVQrbnL4c9-K1pc83fIE"
+api_key = "본인 키 입력"
 from apiclient.discovery import build
 youtube = build('youtube', 'v3', developerKey=api_key)
 
