@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 
-api_key = "AIzaSyC7bCZzhayKamAxVQrbnL4c9-K1pc83fIE"
+api_key = "본인 키 "
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 def get_channel(channel_name):
